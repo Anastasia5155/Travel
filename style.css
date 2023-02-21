@@ -1,0 +1,232 @@
+.block1 {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100px;
+}
+.photo {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 30%;
+}
+.button {
+  width: 39%;
+  height: 25px;
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.button1 {
+  height: 25px;
+  width: 7.8%;
+  background-color: rgba(28, 28, 28, 0);
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #5c5c5c;
+  border: none;
+  -webkit-animation-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button1:hover {
+  color: white;
+  border-radius: 100px;
+  background-color: black;
+  width: 18%;
+  height: 30px;
+}
+.button2 {
+  height: 25px;
+  width: 6%;
+  background-color: rgba(28, 28, 28, 0);
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #5c5c5c;
+  border: none;
+  -webkit-animation-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  color: white;
+  border-radius: 100px;
+  background-color: black;
+  width: 18%;
+  height: 30px;
+}
+.button3 {
+  height: 25px;
+  width: 6%;
+  background-color: rgba(28, 28, 28, 0);
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #5c5c5c;
+  border: none;
+  -webkit-animation-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button3:hover {
+  color: white;
+  border-radius: 100px;
+  background-color: black;
+  width: 18%;
+  height: 30px;
+}
+.button4 {
+  height: 25px;
+  width: 6%;
+  background-color: rgba(28, 28, 28, 0);
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #5c5c5c;
+  border: none;
+  -webkit-animation-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button4:hover {
+  color: white;
+  border-radius: 100px;
+  background-color: black;
+  width: 18%;
+  height: 30px;
+}
+.button5 {
+  height: 25px;
+  width: 17%;
+  background-color: rgba(28, 28, 28, 0);
+  font-family: "Roboto";
+  font-weight: 800;
+  color: #5c5c5c;
+  border: none;
+  -webkit-animation-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button5:hover {
+  color: white;
+  border-radius: 100px;
+  background-color: black;
+  width: 19.5%;
+  height: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .block1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .button {
+    width: 39%;
+    height: 25px;
+    position: relative;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 450px) {
+  .block1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .button {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+  }
+  .button1 {
+    height: 25px;
+    width: 7.8%;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #5c5c5c;
+    border: none;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button1:hover {
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 50%;
+    height: 30px;
+  }
+  .button2 {
+    height: 25px;
+    width: 6%;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #5c5c5c;
+    border: none;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button2:hover {
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 50%;
+    height: 30px;
+  }
+  .button3 {
+    height: 25px;
+    width: 6%;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #5c5c5c;
+    border: none;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button3:hover {
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 50%;
+    height: 30px;
+  }
+  .button4 {
+    height: 25px;
+    width: 6%;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #5c5c5c;
+    border: none;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button4:hover {
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 50%;
+    height: 30px;
+  }
+  .button5 {
+    height: 50px;
+    width: 20%;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #5c5c5c;
+    border: none;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button5:hover {
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 50%;
+    height: 40px;
+  }
+}
